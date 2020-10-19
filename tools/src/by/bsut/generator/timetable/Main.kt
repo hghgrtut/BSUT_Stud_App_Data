@@ -27,6 +27,7 @@ fun main() {
         string = StringBuilder("$string${readPara()}")
         size--
     }
+    print(string)
 }
 
 private inline fun readInt(): Int = readLine()!!.toInt()
